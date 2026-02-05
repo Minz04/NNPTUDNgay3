@@ -1,0 +1,136 @@
+/* Enhanced styles for better aesthetics and emphasis */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Table styles */
+.table {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.table thead {
+  background: linear-gradient(to right, #007bff, #0056b3);
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.table tbody tr {
+  transition: all 0.3s ease;
+}
+
+.table tbody tr:hover {
+  background-color: #f0f8ff;
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Pagination styles */
+.pagination {
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.pagination .page-item.active .page-link {
+  background: linear-gradient(to right, #007bff, #0056b3);
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.pagination .page-link {
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.pagination .page-link:hover {
+  background-color: #0056b3;
+  color: #ffffff;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 25px;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: linear-gradient(to right, #007bff, #0056b3);
+  border: none;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(to right, #0056b3, #003d80);
+  color: #ffffff;
+}
+
+.btn-success {
+  background: linear-gradient(to right, #28a745, #218838);
+  border: none;
+  color: #ffffff;
+}
+
+.btn-success:hover {
+  background: linear-gradient(to right, #218838, #1e7e34);
+  color: #ffffff;
+}
+
+/* Floating preview panel */
+.floating-preview {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid #444;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+  display: none;
+  z-index: 1000;
+  color: #ffffff;
+}
+
+.floating-preview img {
+  max-width: 250px;
+  max-height: 250px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+
+.floating-preview p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #f8f9fa;
+  text-align: center;
+}
